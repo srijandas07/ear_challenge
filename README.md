@@ -5,7 +5,9 @@
 # Model Zoo
 NOTE: All models in our experiments below uses publicly available ViT/B-16 based CLIP model.
 Download the YOLOv8 model and the pretrained ViFi-CLIP model from huggingface.
+
 [Person Cropping](https://huggingface.co/srijandas07/EAR_challenge/blob/main/yolo11n.pt)
+
 [ViFiCLIP trained model](https://huggingface.co/srijandas07/EAR_challenge/blob/main/work_dirs/challenge_baseline_new/best.pth)
 
 ## Installation 
