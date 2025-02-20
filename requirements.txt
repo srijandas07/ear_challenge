@@ -10,3 +10,4 @@ timm
 regex
 yacs
 pandas
+ultralytics==8.3.58
