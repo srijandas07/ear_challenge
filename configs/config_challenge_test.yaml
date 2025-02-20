@@ -1,0 +1,26 @@
+DATA:
+    ROOT: '/data/vidlab_datasets/challenge_crop/rgb'
+    TRAIN_FILE: './merged_dataset.csv'
+    VAL_FILE: './val.csv'
+    DATASET: kinetics400
+    NUM_FRAMES: 16
+    NUM_CLASSES: 45
+    LABEL_LIST: './labels/challenge.csv'
+SAVE_FREQ: 5
+MODEL:
+    ARCH: ViT-B/16
+    RESUME: './work_dirs/challenge_baseline_new/best.pth'
+TRAIN:
+    BATCH_SIZE: 1 # BS 512
+    ACCUMULATION_STEPS: 64
+    EPOCHS: 30
+    LR: 2.2e-05
+TEST:
+    MULTI_VIEW_INFERENCE: False
+    NUM_CLIP: 1
+    NUM_CROP: 1
+    ONLY_TEST: True
+TRAINER:
+  ViFi_CLIP:
+    ZS_EVAL: False # Make True only during test mode to evaluate zero-shot vanilla CLIP performance
+    USE: "both" # both refers to complete fine-tuning of CLIP (text+image encoders)

@@ -1,0 +1,46 @@
+id,name
+0,walking
+1,entering a space
+2,leaving a space
+3,sitting
+4,standing
+5,sitting down
+6,getting up
+7,lying down
+8,cooking
+9,making coffee
+10,making tea
+11,wiping table
+12,spreading bedding
+13,folding bedding
+14,cleaning dishes
+15,vacuuming
+16,looking for something
+17,putting on shoes
+18,taking off shoes
+19,putting on glasses
+20,taking off glasses
+21,cleaning
+22,writing
+23,talking
+24,beckoning
+25,waving a hand
+26,clapping
+27,pointing
+28,shaking hands
+29,phone calls
+30,using a telephone
+31,hugging
+32,washing face
+33,washing hands
+34,brushing teeth
+35,brushing hair
+36,massaging a shoulder oneself
+37,taking medicine
+38,eating
+39,drinking
+40,watching tv
+41,reading
+42,using a laptop
+43,using a tablet
+44,exercising
